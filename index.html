@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С новым годом!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="visible">
+                <h2 class="visible__text">Нажми на часы</h2>
+                <img class="visible__img" id="time" src="img/pngwing.comTime.png" alt="Новогодние часы">
+
+            </div>
+            <div class="hidden" id="hidden">
+                <div class="hidden__content">
+                    <img src="img/pngwing.com.png" alt="" class="hidden__img">
+                    <div class="hidden__text">
+                        <h2 id=name></h2>
+                        Желаю мира и добра, <br>
+                        Любви, душевного тепла! <br>
+                        Пускай вам этот Новый год <br>
+                        Успех и радость принесет! <br>
+                        Пусть Новый год откроет двери <br>
+                        В мир волшебства, заботы, веры. <br>
+                        И всё хорошее начнется! <br>
+                        Удача пусть вам улыбнется! <br>
+                    </div>
+                </div>
+            </div>
+            <form class="form" id="myForm">
+                <div class="form__row">
+                    <div class="input__name"> Имя</div> <input type="text" name="userName">
+                </div>
+                <div class="form__row">
+                    <div class="input__Color"> Цвет текста</div> <input type="text" name="userColor">
+                </div>
+                <label class="form__row">
+                    <div class="input__Size"> Размер текста </div> <input type="text" name="userSize">
+                </label>
+                <input type="checkbox" name="paddingCheck"> Убрать отступы у заголовка
+
+                <div class="form__row form__btn">
+                    <button class="btn" name="btn">Применить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
